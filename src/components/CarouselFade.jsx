@@ -6,9 +6,9 @@ import React from "react";
 function CarouselFade() {
   return (
     <div>
-      <div className="myName mb-5 mt-5">
+      <div className="myName mb-5 mt-5 pb-3">
         {" "}
-        <h2 className="mt-3 pt-3">Proyectos Principales</h2>
+        <h2 className="pt-5">Proyectos Principales</h2>
       </div>
       <Carousel fade className="custom-carousel">
         <Carousel.Item>

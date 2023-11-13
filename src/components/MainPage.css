@@ -10,7 +10,6 @@
  
 /* Default styling for larger screens */
 .myImg {
- 
   border-radius: 5px;
   width: 20vw;
   height: 100vh;
@@ -19,18 +18,18 @@
 }
 
 /* Media query for medium screens */
-@media (max-width: 768px) {
+@media (max-width: 1043px) {
   .myImg {
-    width: 100%; /* Use 100% width on medium screens */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%; /* Use 100% width on medium screens */
+    height: 60%; /* Maintain aspect ratio */
   }
 }
 
 /* Media query for small screens */
 @media (max-width: 576px) {
   .myImg {
-    width: 100%; /* Use 100% width on small screens */
-    height: auto; /* Maintain aspect ratio */
+    width: 80%; /* Use 100% width on small screens */
+    height: 60%; /* Maintain aspect ratio */
   }
 }
 
@@ -53,9 +52,27 @@
   
   }
 
+  .skills img {
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    
+  }
+
   .skills {
+    
     background-color: rgb(230, 230, 230);
     border-radius: 5px;
     padding: 8px;
+  }
+  @media (min-width: 768px) {
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .skills img {
+      margin: 0.5rem;
+    }
   }
   

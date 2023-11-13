@@ -3,7 +3,7 @@ import "./MainPage.css";
 
 function MainPage() {
   return (
-    <div className="container myContainer">
+    <div className="container myContainer pt-5">
       <img className="myImg mt-5 p-3" src="myimg.jpeg" alt="" />
 
       <div className="myName p-3">

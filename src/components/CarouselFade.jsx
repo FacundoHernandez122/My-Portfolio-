@@ -5,7 +5,7 @@ import React from "react";
 
 function CarouselFade() {
   return (
-    <>
+    <div>
       <div className="myName mb-5 mt-5">
         {" "}
         <h2>Mis proyectos deployados</h2>
@@ -52,7 +52,7 @@ function CarouselFade() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </>
+    </div>
   );
 }
 

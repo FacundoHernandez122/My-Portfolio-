@@ -4,6 +4,7 @@ import CarouselFade from "../components/CarouselFade";
 import MyNavbar from "../components/MyNavbar";
 import SlideButton from "../components/SlideButton";
 import "./Home.css";
+import OthersProjects from "./OthersProjects";
 
 function Home() {
   return (
@@ -14,6 +15,8 @@ function Home() {
         <CarouselFade />
       </div>
       <SlideButton />
+
+      <OthersProjects />
     </>
   );
 }

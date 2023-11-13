@@ -2,14 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 100%; 
+    padding-left: 20px;
+    padding-right: 20px;
 
    
   }
   
   .sobre-mi-card {
-    max-width: 100wh; 
-    width: 100vh;
+  
+    max-width: 100%; 
+    width: 100%;
     background-color: rgb(12, 12, 12);
   }
   p{
@@ -44,8 +47,24 @@
   }
 
   .modal-custom {
-    max-width: 40%; 
+    width: 50%;
     text-align: center;
+  }
+
+  .modal_bg {
+    opacity: 99%;
+  }
+  
+.modal_title{
+  text-align: center;
+}
+
+  /* Media query for medium and small screens */
+  @media (max-width: 992px) {
+    .modal-custom {
+      width: 100%;
+      
+    }
   }
   
 
@@ -54,3 +73,24 @@
     max-height: calc(100vh - 200px); 
     overflow-y: auto; 
   }
+
+  /* SobreMi.css */
+
+/* Default styling for larger screens */
+.sobre-mi-text {
+  font-size: 20px;
+}
+
+/* Media query for medium screens */
+@media (max-width: 768px) {
+  .sobre-mi-text {
+    font-size: 18px;
+  }
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .sobre-mi-text {
+    font-size: 18px;
+  }
+}

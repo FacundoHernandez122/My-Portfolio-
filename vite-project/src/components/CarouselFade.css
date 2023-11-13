@@ -1,0 +1,27 @@
+.carousel-image {
+    width: 80%; 
+    max-width: 80%; 
+    height: 800px; 
+    border-radius: 10px;
+    
+    }
+
+  .center-image {
+    display: block;
+    margin: 0 auto;
+  }
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.7); 
+  
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); 
+  }
+
+  .githublink{
+   
+    color: orange;
+  }

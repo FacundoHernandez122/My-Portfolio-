@@ -1,0 +1,56 @@
+.sobre-mi-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+
+   
+  }
+  
+  .sobre-mi-card {
+    max-width: 100wh; 
+    width: 100vh;
+    background-color: rgb(12, 12, 12);
+  }
+  p{
+    color: white;
+  }
+  
+  .sobre-mi-title {
+    font-size: 2em; 
+    color: white;
+  }
+  
+  .sobre-mi-text {
+    font-size: 1.2em; 
+    text-align: justify;
+    
+  }
+
+  .buttonInfo {
+    background-color: rgb(107, 219, 250);
+    color: rgb(0, 0, 0);
+    border: none;
+ 
+    width: 50%;
+    height: 50px;
+  }
+
+  .buttonInfo:hover {
+    background-color: rgb(229, 229, 229);
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-top: 20px;
+  }
+
+  .modal-custom {
+    max-width: 40%; 
+    text-align: center;
+  }
+  
+
+  .modal-body {
+    
+    max-height: calc(100vh - 200px); 
+    overflow-y: auto; 
+  }

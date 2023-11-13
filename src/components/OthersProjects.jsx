@@ -44,7 +44,7 @@ function OthersProjects() {
           </Card>
         </Col>
       </Row>
-      <Row xs={1} md={2} className="g-4 mt-5 p-5">
+      <Row xs={1} md={2} className="g-4  p-5 mb-5">
         <Col>
           <Card className="card_color">
             <Link to={"https://veterinary-agenda.vercel.app/"} target="blank">

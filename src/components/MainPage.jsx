@@ -33,7 +33,7 @@ function MainPage() {
         </div>
       </div>
       <div>
-        <img className="scroll mt-5 " src="scroll-down.gif" alt="" />
+        <img className="scroll mt-5 mb-5 " src="scroll-down.gif" alt="" />
       </div>
     </div>
   );

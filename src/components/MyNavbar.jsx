@@ -6,7 +6,7 @@ import "./MyNavbar.css";
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="custom-navbar">
+    <Navbar expand="lg" className="custom-navbar mb-4 ">
       <Container fluid>
         {" "}
         <Navbar.Brand href="/">

@@ -12,7 +12,7 @@ function OthersProjects() {
           Otros Proyectos asdasdas
         </h2>
       </div>
-      <Row xs={1} md={2} className="g-4 mt-1 ps-5 pe-5 pt-4 ">
+      <Row xs={1} md={2} className="g-4 mt-1 ps-5 pe-5 pt-3 ">
         <Col>
           <Card className="card_color">
             <Link to={"https://car-finder-kappa.vercel.app/"} target="_blank">

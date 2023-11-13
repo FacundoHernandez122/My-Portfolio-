@@ -10,7 +10,7 @@ function MainPage() {
         <h1>Facundo Hernández Casas</h1>
         <p>Full Stack Web Developer</p>
       </div>
-      <div className="skills mt-5 p-3">
+      <div className="skills mt-4 p-3">
         <img className="me-3 ms-3" src="aws.png" alt="" />
         <img className="me-3" src="bootstrap.png" alt="" />
         <img className="me-3" src="css.png" alt="" />
@@ -26,7 +26,7 @@ function MainPage() {
         <img className="me-3" src="vue.png" alt="" />
       </div>
       <div>
-        <img className="scroll " src="scroll-down.gif" alt="" />
+        <img className="scroll mt-5 " src="scroll-down.gif" alt="" />
       </div>
     </div>
   );

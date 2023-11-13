@@ -7,15 +7,32 @@
     height: 100vh;
   }
   
-  .myImg {
-  
-   border-radius: 5px;
-    width: 400px;
-    height: 450px;
-    object-fit: cover;
-    
+ 
+/* Default styling for larger screens */
+.myImg {
+ 
+  border-radius: 5px;
+  width: 20vw;
+  height: 100vh;
+  object-fit: cover;
+  border: 1px solid white;
+}
 
+/* Media query for medium screens */
+@media (max-width: 768px) {
+  .myImg {
+    width: 100%; /* Use 100% width on medium screens */
+    height: auto; /* Maintain aspect ratio */
   }
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .myImg {
+    width: 100%; /* Use 100% width on small screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
 
   .scroll {
     padding-top: 25px;

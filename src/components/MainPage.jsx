@@ -25,7 +25,7 @@ function MainPage() {
 
         <img className="me-3" src="vue.png" alt="" />
       </div>
-      <div className="">
+      <div>
         <img className="scroll " src="scroll-down.gif" alt="" />
       </div>
     </div>

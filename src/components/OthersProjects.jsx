@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 function OthersProjects() {
   return (
     <div>
-      <div>
+      <div className="pt-5">
         <h2 className="OthersProject text-center pt-5 ">Otros Proyectos</h2>
       </div>
-      <Row xs={1} md={2} className="g-4 mt-5 p-5">
+      <Row xs={1} md={2} className="g-4 mt-3 ps-5 pe-5 pt-5 ">
         <Col>
           <Card className="card_color">
             <Link to={"https://car-finder-kappa.vercel.app/"} target="_blank">
@@ -44,7 +44,7 @@ function OthersProjects() {
           </Card>
         </Col>
       </Row>
-      <Row xs={1} md={2} className="g-4  p-5 mb-5">
+      <Row xs={1} md={2} className="g-4  ps-5 pe-5 pb-5 pt-4 mb-5">
         <Col>
           <Card className="card_color">
             <Link to={"https://veterinary-agenda.vercel.app/"} target="blank">

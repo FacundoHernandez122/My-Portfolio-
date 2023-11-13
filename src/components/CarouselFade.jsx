@@ -8,7 +8,7 @@ function CarouselFade() {
     <div>
       <div className="myName mb-5 mt-5">
         {" "}
-        <h2>Mis proyectos deployados</h2>
+        <h2>Proyectos Principales</h2>
       </div>
       <Carousel fade>
         <Carousel.Item>

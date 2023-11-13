@@ -4,13 +4,13 @@ import "./MainPage.css";
 function MainPage() {
   return (
     <div className="myContainer">
-      <img className="myImg" src="myimg.jpeg" alt="" />
+      <img className="myImg mt-5 p-3" src="myimg.jpeg" alt="" />
 
       <div className="myName">
         <h1>Facundo Hernández Casas</h1>
         <p>Full Stack Web Developer</p>
       </div>
-      <div className="skills">
+      <div className="skills mt-5 p-3">
         <img className="me-3 ms-3" src="aws.png" alt="" />
         <img className="me-3" src="bootstrap.png" alt="" />
         <img className="me-3" src="css.png" alt="" />
@@ -25,8 +25,8 @@ function MainPage() {
 
         <img className="me-3" src="vue.png" alt="" />
       </div>
-      <div>
-        <img className="scroll" src="scroll-down.gif" alt="" />
+      <div className="">
+        <img className="scroll " src="scroll-down.gif" alt="" />
       </div>
     </div>
   );

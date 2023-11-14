@@ -20,7 +20,7 @@ function MyNavbar() {
             <Nav.Link href="./SobreMi" className="m-2">
               <strong>Sobre mí</strong>
             </Nav.Link>
-            <Nav.Link href="/mi_curriculum.pdf" className="m-2" target="_blank">
+            <Nav.Link href="/cv.pdf" className="m-2" target="_blank">
               <strong> Curriculum Vitae</strong>
             </Nav.Link>
             <Nav.Link

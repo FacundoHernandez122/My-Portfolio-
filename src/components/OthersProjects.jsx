@@ -8,9 +8,7 @@ function OthersProjects() {
   return (
     <div>
       <div className="pt-4">
-        <h2 className="OthersProject text-center pt-5 ">
-          Otros Proyectos asdasdas
-        </h2>
+        <h2 className="OthersProject text-center pt-5 ">Otros Proyectos</h2>
       </div>
       <Row xs={1} md={2} className="g-4 mt-1 ps-5 pe-5 pt-3 ">
         <Col>

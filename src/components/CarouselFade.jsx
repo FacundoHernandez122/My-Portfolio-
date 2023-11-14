@@ -6,7 +6,7 @@ import React from "react";
 function CarouselFade() {
   return (
     <div>
-      <div className="myName mb-3 mt-5 pb-5">
+      <div className="myName mb-3 mt-5 pb-4">
         {" "}
         <h2 className="pt-5">Proyectos Principales</h2>
       </div>
@@ -31,7 +31,7 @@ function CarouselFade() {
         <Carousel.Item>
           <img
             className="carousel-image center-image"
-            src="woi.gif"
+            src="woi2.gif"
             alt="First slide"
           />
           <Carousel.Caption>

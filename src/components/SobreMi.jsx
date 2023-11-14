@@ -14,7 +14,7 @@ const SobreMi = () => {
       <div className="container lg-12 md-6 sm-4 sobre-mi-container mt-5">
         <div className="row text-center ">
           <div className="col  sobre-mi-card">
-            <Card.Title className="sobre-mi-title mt-5">
+            <Card.Title className="sobre-mi-title mt-3">
               ¡Hola a todos!
             </Card.Title>
             <Card.Text className="sobre-mi-text mt-5">
@@ -80,15 +80,15 @@ const SobreMi = () => {
             </Card.Text>
 
             <Button
-              className="buttonInfo mt-5 mb-5"
+              className="buttonInfo mt-5 mb-5 pb-5"
               onClick={handleShowModal}
               block
             >
-              <h4>Contáctame</h4>
+              <h2>Contáctame</h2>
             </Button>
 
             <Modal
-              className="modal_bg"
+              className="modal_bg mt-5"
               show={showModal}
               onHide={handleCloseModal}
               dialogClassName="modal-custom"

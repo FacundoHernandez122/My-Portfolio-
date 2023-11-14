@@ -13,7 +13,7 @@
   
     max-width: 100%; 
     width: 100%;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(8, 8, 8);
   }
   p{
     color: white;
@@ -31,17 +31,16 @@
   }
 
   .buttonInfo {
-    background-color: rgb(107, 219, 250);
-    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
     border: none;
- 
     width: 50%;
     height: 50px;
   }
 
   .buttonInfo:hover {
-    background-color: rgb(229, 229, 229);
-    color: rgb(0, 0, 0);
+    background-color: rgb(178, 178, 178);
+    color: rgb(57, 57, 57);
     border: none;
     margin-top: 20px;
   }
@@ -74,23 +73,4 @@
     overflow-y: auto; 
   }
 
-  /* SobreMi.css */
-
-/* Default styling for larger screens */
-.sobre-mi-text {
-  font-size: 20px;
-}
-
-/* Media query for medium screens */
-@media (max-width: 768px) {
-  .sobre-mi-text {
-    font-size: 18px;
-  }
-}
-
-/* Media query for small screens */
-@media (max-width: 576px) {
-  .sobre-mi-text {
-    font-size: 18px;
-  }
-}
+ 

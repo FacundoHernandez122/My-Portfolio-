@@ -10,30 +10,32 @@ function MyNavbar() {
       <Container fluid>
         {" "}
         <Navbar.Brand href="/">
-          <h4 className="ms-5">Mi Portafolio</h4>
+          <h4 className="ms-5">
+            <strong>Mi Portafolio</strong>
+          </h4>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto me-5">
             <Nav.Link href="./SobreMi" className="m-2">
-              Sobre mí
+              <strong>Sobre mí</strong>
             </Nav.Link>
             <Nav.Link href="/mi_curriculum.pdf" className="m-2" target="_blank">
-              Curriculum Vitae
+              <strong> Curriculum Vitae</strong>
             </Nav.Link>
             <Nav.Link
               href="https://www.linkedin.com/in/facundohernandezcasas/"
               target="_blank"
               className="m-2"
             >
-              LinkedIn
+              <strong>LinkedIn</strong>
             </Nav.Link>
             <Nav.Link
               href="https://github.com/FacundoHernandez122"
               target="_blank"
               className="m-2"
             >
-              GitHub
+              <strong>GitHub</strong>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

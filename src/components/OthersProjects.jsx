@@ -54,7 +54,7 @@ function OthersProjects() {
               <Card.Title className="text-center">Veterinaria</Card.Title>
               <Card.Text className="cards_text">
                 Almacena pacientes de veterinaria guardando las citas en
-                LocaleStorage y permitiendo editar o eliminar las mismas.
+                LocaleStorage.
               </Card.Text>
             </Card.Body>
           </Card>

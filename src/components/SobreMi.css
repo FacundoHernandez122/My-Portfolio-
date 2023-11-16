@@ -8,6 +8,9 @@
 
    
   }
+
+ 
+ 
   
   .sobre-mi-card {
   
@@ -36,13 +39,18 @@
     border: none;
     width: 50%;
     height: 50px;
+    box-shadow: -1px 1px 90px -16px rgba(155,253,255,1);
+    -webkit-box-shadow: -1px 1px 90px -16px rgba(155,253,255,1);
+    -moz-box-shadow: -1px 1px 90px -16px rgba(155,253,255,1);
   }
+  
 
   .buttonInfo:hover {
     background-color: rgb(178, 178, 178);
     color: rgb(57, 57, 57);
     border: none;
     margin-top: 20px;
+    transform: scale(1, 1.07);
   }
 
   .modal-custom {

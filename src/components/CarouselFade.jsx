@@ -31,7 +31,7 @@ function CarouselFade() {
         <Carousel.Item>
           <img
             className="carousel-image center-image"
-            src="woi2.gif"
+            src="mernproyect.png"
             alt="First slide"
           />
           <Carousel.Caption>

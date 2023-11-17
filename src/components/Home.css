@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(20, 20, 20);
+        margin: 0;
+        padding: 0;
    }
    ::-webkit-scrollbar {
     display: none;

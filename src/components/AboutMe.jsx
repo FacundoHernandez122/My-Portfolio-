@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
-import "./SobreMi.css";
+import { Card, Button, Modal } from "react-bootstrap";
+import "./AboutMe.css";
 import MyNavbar from "./MyNavbar";
 
-const SobreMi = () => {
+const AboutMe = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleShowModal = () => setShowModal(true);
@@ -79,13 +79,17 @@ const SobreMi = () => {
               cualquier pregunta o colaboración.
             </Card.Text>
 
-            <Button
-              className="buttonInfo mt-5 mb-5 pb-5"
+            <a
+              className="buttonInfo mt-5 mb-5"
               onClick={handleShowModal}
               block
             >
-              <h2>Contáctame</h2>
-            </Button>
+              <span id="span1"></span>
+              <span id="span2"></span>
+              <span id="span3"></span>
+              <span id="span4"></span>
+              Contáctame
+            </a>
 
             <Modal
               className="modal_bg mt-5"
@@ -115,4 +119,4 @@ const SobreMi = () => {
   );
 };
 
-export default SobreMi;
+export default AboutMe;

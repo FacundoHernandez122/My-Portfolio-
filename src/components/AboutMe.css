@@ -1,0 +1,155 @@
+.sobre-mi-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+
+
+
+.sobre-mi-card {
+
+  max-width: 100%;
+  width: 100%;
+  background-color: rgb(14, 14, 14);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.75);
+}
+
+p {
+  color: white;
+}
+
+.sobre-mi-title {
+  font-size: 2em;
+  color: white;
+}
+
+.sobre-mi-text {
+  font-size: 1.2em;
+  text-align: justify;
+
+}
+
+.buttonInfo {
+  background-color: rgb(51, 51, 51);
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+
+
+.buttonInfo:hover {
+  background: rgb(60, 77, 80);
+  box-shadow: 0 0 5px rgb(19, 139, 169), 0 0 20px rgb(19, 139, 169), 0 0 40px white;
+  transition-delay: 1s;
+  border: none;
+  color: black;
+}
+
+.buttonInfo span {
+  position: absolute;
+  display: block;
+}
+
+#span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(19, 139, 169));
+
+}
+
+.buttonInfo:hover #span1 {
+  left: 100%;
+  transition: 1s;
+}
+
+#span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, rgb(19, 139, 169));
+
+}
+
+.buttonInfo:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span2 {
+  top: -100;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, rgb(19, 139, 169));
+
+}
+
+.buttonInfo:hover #span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span4 {
+  bottom: -100;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, rgb(19, 139, 169));
+
+}
+
+.buttonInfo:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.modal-custom {
+  width: 50%;
+  text-align: center;
+}
+
+.modal_bg {
+  opacity: 99%;
+}
+
+.modal_title {
+  text-align: center;
+}
+
+/* Media query for medium and small screens */
+@media (max-width: 992px) {
+  .modal-custom {
+    width: 100%;
+
+  }
+}
+
+
+.modal-body {
+
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}

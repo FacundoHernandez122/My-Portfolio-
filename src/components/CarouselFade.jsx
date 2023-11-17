@@ -5,8 +5,8 @@ import React from "react";
 
 function CarouselFade() {
   return (
-    <div>
-      <div className="myName mb-3 mt-5 pb-4">
+    <div className="">
+      <div className="myName mb-3 mt-5 pb-4 pt-5">
         {" "}
         <h2 className="pt-5">Proyectos Principales</h2>
       </div>

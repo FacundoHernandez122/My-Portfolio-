@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
   }
   
  
@@ -14,7 +15,7 @@
   width: 20vw;
   height: 100vh;
   object-fit: cover;
-  border: 1px solid white;
+  border: 1px solid rgb(224, 224, 224);
 }
 
 /* Media query for medium screens */
@@ -28,8 +29,10 @@
 /* Media query for small screens */
 @media (max-width: 576px) {
   .myImg {
-    width: 80%; /* Use 100% width on small screens */
-    height: 60%; /* Maintain aspect ratio */
+    width: 100%;
+      /* Use 100% width on small screens */
+      height: 50%;
+      /* Maintain aspect ratio */
   }
 }
 
@@ -58,11 +61,13 @@
     
   }
 
+      
   .skills {
     
     background-color: rgb(230, 230, 230);
     border-radius: 5px;
     padding: 8px;
+    
   }
   @media (min-width: 768px) {
     .skills {
@@ -75,4 +80,7 @@
       margin: 0.5rem;
     }
   }
-  
+
+.iconskill:hover {
+  transform: scale(1, 1.2);
+}

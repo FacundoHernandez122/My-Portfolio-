@@ -17,7 +17,7 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto me-5">
-            <Nav.Link href="./SobreMi" className="m-2">
+            <Nav.Link href="./AboutMe" className="m-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"

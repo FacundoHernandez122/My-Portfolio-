@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SobreMi from "./components/SobreMi";
+import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/SobreMi" element={<SobreMi />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
       </Routes>
     </BrowserRouter>
   );

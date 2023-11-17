@@ -50,6 +50,7 @@ p {
   text-decoration: none;
   overflow: hidden;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 

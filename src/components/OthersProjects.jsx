@@ -11,7 +11,7 @@ function OthersProjects() {
         <h2 className="OthersProject text-center pt-5 ">Otros Proyectos</h2>
       </div>
       <Row xs={1} md={2} className="g-4 mt-1 ps-5 pe-5 pt-3 ">
-        <Col>
+        <Col className="mb-5">
           <Card className="card_color">
             <Link to={"https://car-finder-kappa.vercel.app/"} target="_blank">
               <Card.Img variant="" src="carfinderimg.png" />
@@ -25,7 +25,7 @@ function OthersProjects() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className="mb-5">
           <Card className="card_color">
             <Link
               to={"https://quote-cryptocurrency.vercel.app/"}
@@ -42,10 +42,10 @@ function OthersProjects() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col>
+        </Col >
       </Row>
       <Row xs={1} md={2} className="g-4 ps-5 pe-5 pt-4 pb-5 mb-5">
-        <Col>
+        <Col className="mb-5">
           <Card className="card_color">
             <Link to={"https://veterinary-agenda.vercel.app/"} target="blank">
               <Card.Img variant="" src="veterinaryimg.png" />
@@ -59,7 +59,7 @@ function OthersProjects() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className="mb-5">
           <Card className="card_color">
             <Link to={"https://climate-api-zeta.vercel.app/"} target="_blank">
               <Card.Img variant="" src="climateimg.png" />

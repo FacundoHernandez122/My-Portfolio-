@@ -7,9 +7,9 @@
     height: 100vh;
     
   }
-  
+                                                              
  
-/* Default styling for larger screens */
+
 .myImg {
   border-radius: 5px;
   width: 20vw;
@@ -18,21 +18,22 @@
   border: 1px solid rgb(224, 224, 224);
 }
 
-/* Media query for medium screens */
+
 @media (max-width: 1043px) {
   .myImg {
-    width: 50%; /* Use 100% width on medium screens */
-    height: 60%; /* Maintain aspect ratio */
+    width: 50%;
+      height: 60%;
   }
 }
 
-/* Media query for small screens */
+
 @media (max-width: 576px) {
   .myImg {
+    
     width: 100%;
-      /* Use 100% width on small screens */
+      
       height: 50%;
-      /* Maintain aspect ratio */
+      
   }
 }
 
@@ -56,8 +57,8 @@
   }
 
   .skills img {
-    width: 50px; /* Set the desired width */
-    height: 50px; /* Set the desired height */
+    width: 50px;
+      height: 50px;
     
   }
 

@@ -4,8 +4,9 @@ import "./MainPage.css";
 function MainPage() {
   return (
     <div className="container myContainer pt-5">
+      
       <img className="myImg mt-5 p-3" src="myimg.jpeg" alt="" />
-
+     
       <div className="myName p-3 mt-3">
         <h1>Facundo Hernández Casas</h1>
         <p>Full Stack Web Developer</p>

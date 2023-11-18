@@ -31,7 +31,7 @@ function MyNavbar() {
               </svg>
               <strong>Sobre mí</strong>
             </Nav.Link>
-            <Nav.Link href="/cv.pdf" className="m-2" target="_blank">
+            <Nav.Link href="/cv.pdf" className="m-2" download={"CV - Facundo Hernandez"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"

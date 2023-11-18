@@ -69,9 +69,7 @@ const AboutMe = () => {
 
             <Card.Text className="sobre-mi-text">
               Estoy emocionado por compartir mi viaje y habilidades con la
-              comunidad del desarrollo web. Adjunto a este mensaje, encontrarán
-              mi currículum, donde detallo más a fondo mi experiencia y
-              habilidades.
+              comunidad del desarrollo web.
             </Card.Text>
 
             <Card.Text className="sobre-mi-text">
@@ -97,16 +95,14 @@ const AboutMe = () => {
               onHide={handleCloseModal}
               dialogClassName="modal-custom"
             >
-              <Modal.Header className="modal_title" closeButton>
-                <Modal.Title>Información de Contacto</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
+              
+              <Modal.Body className="modal_body">
                 <h3 className="mt-2">Correo Electrónico:</h3>
                 <h4 className="mt-3">facundohernandez122@gmail.com</h4>
                 <h3 className="mt-5">Número de Teléfono:</h3>
                 <h4 className="mt-3">+598 097 085 998</h4>
               </Modal.Body>
-              <Modal.Footer>
+              <Modal.Footer className="modal_footer">
                 <Button variant="secondary" onClick={handleCloseModal}>
                   Cerrar
                 </Button>

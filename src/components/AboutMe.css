@@ -9,6 +9,25 @@
 
 }
 
+.modal_bg {
+  color: white;
+
+}
+
+.modal_title {
+  background-color: rgb(23, 23, 23);
+  border: 1px solid white;
+}
+
+.modal_body {
+  background-color: rgb(23, 23, 23);
+  border: 1px solid white;
+}
+
+.modal_footer {
+  background-color: rgb(23, 23, 23);
+  border: 1px solid white;
+}
 
 
 

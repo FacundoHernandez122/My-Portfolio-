@@ -7,27 +7,7 @@
     right: 0;
   }
   
-  .cart_icon_bar {
-    color: #14213d;
-    position: absolute;
-    top: 10em;
-    right: 3.7em;
-    background-color: rgb(230, 230, 230);
-    border-radius: 50%;
-    height: 55px;
-    width: 55px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-  
-  .cart_icon_bar:hover {
-    cursor: pointer;
-  }
-  
-  .cart_icon_bar svg:hover {
-    color: white;
-  }
+
   
   .arrow_icon_bar {
     display: flex;
@@ -35,12 +15,13 @@
     align-items: center;
     color: #14213d;
     position: fixed;
-    bottom: 30px;
+    bottom: 25px;
     right: 30px;
     background-color: rgb(230, 230, 230);
+    color: #0db1b6;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 40px;
+      width: 40px;
     align-items: center;
     justify-content: center;
     display: flex;

@@ -1,7 +1,24 @@
 import React from "react";
 import "./MainPage.css";
+import Typed from 'typed.js';
 
 function MainPage() {
+
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['<i>Full Stack Web Developer</i>.'],
+      typeSpeed: 90,
+    });
+
+    return () => {
+      
+      typed.destroy();
+    };
+  }, []);
+
+
   return (
     <div className="container myContainer pt-5">
       
@@ -9,7 +26,7 @@ function MainPage() {
      
       <div className="myName p-3 mt-3">
         <h1>Facundo Hernández Casas</h1>
-        <p>Full Stack Web Developer</p>
+        <span ref={el} />
       </div>
       <div className="">
         <img className="scroll" src="scroll-down.gif" alt="" />

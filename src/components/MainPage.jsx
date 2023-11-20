@@ -1,29 +1,25 @@
 import React from "react";
 import "./MainPage.css";
-import Typed from 'typed.js';
+import Typed from "typed.js";
 
 function MainPage() {
-
   const el = React.useRef(null);
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>Full Stack Web Developer</i>.'],
+      strings: ["<i>Full Stack Web Developer</i>."],
       typeSpeed: 90,
     });
 
     return () => {
-      
       typed.destroy();
     };
   }, []);
 
-
   return (
     <div className="container myContainer pt-5">
-      
       <img className="myImg mt-5 p-3" src="myimg.jpeg" alt="" />
-     
+
       <div className="myName p-3 mt-3">
         <h1>Facundo Hernández Casas</h1>
         <span ref={el} />
@@ -53,7 +49,6 @@ function MainPage() {
           </div>
         </div>
       </div>
-     
     </div>
   );
 }

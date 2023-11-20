@@ -31,7 +31,7 @@ function CarouselFade() {
         <Carousel.Item>
           <img
             className="carousel-image center-image"
-            src="mernproyect.png"
+            src="mernimgp.png"
             alt="First slide"
           />
           <Carousel.Caption>

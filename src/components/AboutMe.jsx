@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Card, Button, Modal } from "react-bootstrap";
 import "./AboutMe.css";
 import MyNavbar from "./MyNavbar";
+import Accordion from "react-bootstrap/Accordion";
 
 const AboutMe = () => {
   const [showModal, setShowModal] = useState(false);
@@ -14,97 +15,123 @@ const AboutMe = () => {
       <div className="container lg-12 md-6 sm-4 sobre-mi-container mt-5">
         <div className="row text-center ">
           <div className="col  sobre-mi-card">
-            <Card.Title className="sobre-mi-title mt-3">
-              ¡Hola a todos!
-            </Card.Title>
             <Card.Text className="sobre-mi-text mt-5">
-              Mi nombre es Facundo Hernandez, un entusiasta desarrollador web
-              full stack de 23 años proveniente de Uruguay. Desde el pasado
-              abril de 2023, me sumergí de lleno en el emocionante mundo del
-              desarrollo web, dedicando tiempo y esfuerzo continuo para mejorar
-              y expandir mis habilidades.
+              My name is Facundo Hernandez, a 24-year-old enthusiastic
+              full-stack web developer. I am currently in my second semester of
+              the IT Analyst program at the Faculty of Engineering at ORT. My
+              productivity shines thanks to my dedication to self-taught
+              learning and my commitment to continuous improvement. My creative
+              approach to problem-solving and my solid knowledge base
+              distinguish me as a committed and valuable candidate. I am excited
+              about the opportunity to apply my skills and knowledge in a
+              professional environment, collaborating as a team to provide
+              innovative solutions.
             </Card.Text>
 
             <Card.Text className="sobre-mi-text">
-              Mi viaje comenzó con un curso introductorio de front-end, seguido
-              de un bootcamp intensivo de 3 meses que abarcó de lunes a viernes,
-              de 8 a 18 hs. Al completar el bootcamp, me embarqué en la creación
-              de mi propio portfolio y en la implementación de proyectos
-              prácticos para consolidar mis conocimientos.
+              My journey began with an introductory front-end course, followed
+              by an intensive 3-month bootcamp that took place from Monday to
+              Friday, from 8 AM to 6 PM in 2023. After completing the bootcamp,
+              I embarked on creating my own portfolio and implementing practical
+              projects to consolidate my knowledge.
             </Card.Text>
 
             <Card.Text className="sobre-mi-text">
-              Mi búsqueda constante de conocimiento me ha llevado a participar
-              en cursos autodidactas en plataformas como Udemy. Actualmente, me
-              encuentro inmerso en un curso de AWS, un curso completo de React y
-              otro de Javascript, con el objetivo de reforzar y ampliar mis
-              habilidades existentes.
-            </Card.Text>
-
-            <Card.Text className="sobre-mi-text">
-              Mis habilidades técnicas incluyen el dominio de tecnologías como
+              My technical skills include proficiency in technologies such as
               React, Node.js, MongoDB, MySQL, Redux, Express.js, Javascript,
-              HTML, CSS, Vue.js, GitHub, AWS, Scrum, Bootstrap y Tailwind.
+              HTML, CSS, Vue.js, GitHub, AWS, Scrum, Bootstrap, and Tailwind,
+              Java, among others.
             </Card.Text>
 
             <Card.Text className="sobre-mi-text">
-              Además de mi dedicación al desarrollo web, me considero una
-              persona responsable, proactiva y constantemente impulsada a
-              superar desafíos. Mi mentalidad enfocada en el crecimiento y mi
-              habilidad para aprender rápidamente me convierten en un apasionado
-              del desarrollo web.
+              Besides my dedication to web development, I consider myself a
+              responsible, proactive person who is constantly driven to overcome
+              challenges. My growth-oriented mindset and ability to learn
+              quickly make me a passionate web developer.
             </Card.Text>
 
             <Card.Text className="sobre-mi-text">
-              En cuanto a idiomas, manejo un nivel B-1 de inglés, soy hablante
-              nativo de español y tengo conocimientos básicos de portugués.
+              Thank you for taking the time to get to know me! If you want to
+              contact me.
             </Card.Text>
+            <br />
+            <Card.Title className="sobre-mi-title mt-3">Soft Skills</Card.Title>
+            <br />
+            <br />
 
-            <Card.Text className="sobre-mi-text">
-              Fuera del ámbito laboral, disfruto practicar fútbol, artes
-              marciales y jugar videojuegos. Como amante del trabajo remoto, mi
-              sueño es poder viajar y desempeñarme desde cualquier parte del
-              mundo.
-            </Card.Text>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>
+                  <h4>Communication</h4>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <h5>Effective exchange of information and ideas.</h5>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  <h4>Collaboration</h4>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <h5>Working effectively in a team environment.</h5>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  <h4>Adaptability</h4>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <h5>Flexibility to embrace change and new technologies.</h5>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>
+                  <h4>Time Management</h4>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <h5>Efficiently organizing and prioritizing tasks.</h5>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header>
+                  <h4>Problem Solving</h4>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <h5>Analytical thinking to resolve challenges.</h5>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>
+                  <h4>Creativity</h4>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <h5>Generating innovative solutions and ideas.</h5>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
 
-            <Card.Text className="sobre-mi-text">
-              Estoy emocionado por compartir mi viaje y habilidades con la
-              comunidad del desarrollo web.
-            </Card.Text>
-
-            <Card.Text className="sobre-mi-text">
-              ¡Gracias por tomarse el tiempo de conocerme! Estoy abierto a
-              cualquier pregunta o colaboración.
-            </Card.Text>
-
-            <a
-              className="buttonInfo mt-5 mb-5"
-              onClick={handleShowModal}
-              block
-            >
+            <a className="buttonInfo mt-5 mb-5" onClick={handleShowModal} block>
               <span id="span1"></span>
               <span id="span2"></span>
               <span id="span3"></span>
               <span id="span4"></span>
-              Contáctame
+              Contact me
             </a>
-
             <Modal
               className="modal_bg mt-5"
               show={showModal}
               onHide={handleCloseModal}
               dialogClassName="modal-custom"
             >
-              
               <Modal.Body className="modal_body">
-                <h3 className="mt-2">Correo Electrónico:</h3>
+                <h3 className="mt-2">Email:</h3>
                 <h4 className="mt-3">facundohernandez122@gmail.com</h4>
-                <h3 className="mt-5">Número de Teléfono:</h3>
+                <h3 className="mt-5">Phone Number:</h3>
                 <h4 className="mt-3">+598 097 085 998</h4>
               </Modal.Body>
               <Modal.Footer className="modal_footer">
                 <Button variant="secondary" onClick={handleCloseModal}>
-                  Cerrar
+                  Close
                 </Button>
               </Modal.Footer>
             </Modal>

@@ -13,7 +13,7 @@ function Home() {
       <MyNavbar />
       <MainPage />
       <ContactMe />
-      
+
       <div className="mb-5">
         <CarouselFade />
       </div>

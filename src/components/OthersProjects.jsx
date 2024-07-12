@@ -8,19 +8,19 @@ function OthersProjects() {
   return (
     <div>
       <div className="pt-4">
-        <h2 className="OthersProject text-center pt-5 ">Otros Proyectos</h2>
+        <h2 className="OthersProject text-center pt-5">Other Projects</h2>
       </div>
-      <Row xs={1} md={2} className="g-4 mt-1 ps-5 pe-5 pt-3 ">
+      <Row xs={1} md={2} className="g-4 mt-1 ps-5 pe-5 pt-3">
         <Col className="mb-5">
           <Card className="card_color">
             <Link to={"https://car-finder-kappa.vercel.app/"} target="_blank">
               <Card.Img variant="" src="carfinderimg.png" />
             </Link>
             <Card.Body>
-              <Card.Title className="text-center">Buscador de Autos</Card.Title>
+              <Card.Title className="text-center">Car Finder</Card.Title>
               <Card.Text className="cards_text">
-                Este es un buscador de autos con varios filtros creado con
-                Javascript Vanilla.
+                This is a car finder with various filters created with Vanilla
+                JavaScript.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -35,14 +35,14 @@ function OthersProjects() {
             </Link>
             <Card.Body>
               <Card.Title className="text-center">
-                Cotizador de Cryptomonedas
+                Cryptocurrency Quoter
               </Card.Title>
               <Card.Text className="cards_text">
-                Es un cotizador de cryptomonedas usando una API externa (JS)
+                It's a cryptocurrency quoter using an external API (JS).
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col >
+        </Col>
       </Row>
       <Row xs={1} md={2} className="g-4 ps-5 pe-5 pt-4 pb-5 mb-5">
         <Col className="mb-5">
@@ -51,10 +51,10 @@ function OthersProjects() {
               <Card.Img variant="" src="veterinaryimg.png" />
             </Link>
             <Card.Body>
-              <Card.Title className="text-center">Veterinaria</Card.Title>
+              <Card.Title className="text-center">Veterinary</Card.Title>
               <Card.Text className="cards_text">
-                Almacena pacientes de veterinaria guardando las citas en
-                LocaleStorage.
+                Store veterinary patients by saving appointments in
+                LocalStorage.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -65,10 +65,10 @@ function OthersProjects() {
               <Card.Img variant="" src="climateimg.png" />
             </Link>
             <Card.Body>
-              <Card.Title className="text-center">Clima</Card.Title>
+              <Card.Title className="text-center">Weather</Card.Title>
               <Card.Text className="cards_text">
-                Usando una API externa puedes conseguir el clima en múltiples
-                países
+                Using an external API, you can get the weather in multiple
+                countries.
               </Card.Text>
             </Card.Body>
           </Card>

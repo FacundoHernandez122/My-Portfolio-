@@ -7,8 +7,7 @@ function CarouselFade() {
   return (
     <div className="">
       <div className="myName mb-3 mt-5 pb-4 pt-5">
-        {" "}
-        <h2 className="pt-5">Proyectos Principales</h2>
+        <h2 className="pt-5">Main Projects</h2>
       </div>
       <Carousel fade className="custom-carousel">
         <Carousel.Item>
@@ -22,8 +21,8 @@ function CarouselFade() {
           <Carousel.Caption>
             <h3>GameHub</h3>
             <p>
-              Esté es un proyecto de E-Commerce de videojuegos logrado en equipo
-              en un lapso de 3 semanas.
+              This is an E-Commerce project for video games developed by a team
+              in 3 weeks.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -35,11 +34,11 @@ function CarouselFade() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Proximamente</h3>
+            <h3>Coming Soon</h3>
             <p>
-              Me encuentro realizando un proyecto usando MERN que muy pronto
-              estára deployado para que lo puedas ver! Mientras tanto te invito
-              a ver mis proyectos no deployados en mi{" "}
+              I am currently working on a MERN project that will soon be
+              deployed for you to see! In the meantime, I invite you to check
+              out my non-deployed projects on my{" "}
               <Link
                 className="githublink"
                 to={`https://github.com/FacundoHernandez122`}
